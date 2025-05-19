@@ -1,0 +1,23 @@
+body {
+      margin: 0;
+      height: 100vh; /* Full viewport height */
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      align-items: center;     /* Center vertically */
+      background-color: #f0f0f0; /* Optional */
+}
+#back_arrow{
+    text-align: center;
+    font: bold;
+    font-size: 30px;
+    font-family: 'sans-serif';
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 10px;
+    /* align-items: center; */
+    box-shadow: 2px  2px rgb(41, 39, 39),
+}
+#back_arrow:hover{
+    background-color: grey;
+    color: rgb(255, 255, 255);
+}
